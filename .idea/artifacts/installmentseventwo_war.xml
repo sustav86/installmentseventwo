@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="installmentseventwo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>installmentseventwo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="installmentseventwo.war">
+      <element id="artifact" artifact-name="installmentseventwo:war exploded" />
+    </root>
+  </artifact>
+</component>
